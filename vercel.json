@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/items.js": {
+    "api/simpsons.js": {
       "includeFiles": "data/simpsons.json"
     }
   },
