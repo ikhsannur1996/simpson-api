@@ -4,7 +4,7 @@ import path from 'path';
 export default function handler(req, res) {
   if (req.method === 'GET') {
     try {
-      const filePath = path.join(process.cwd(), 'data', 'items.json');
+      const filePath = path.join(process.cwd(), 'data', 'simpsons.json');
       const fileContents = fs.readFileSync(filePath, 'utf8');
       const items = JSON.parse(fileContents);
 
