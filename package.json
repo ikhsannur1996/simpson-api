@@ -2,7 +2,7 @@
   "name": "vercel-json-api",
   "version": "1.0.0",
   "description": "A simple serverless API that serves a JSON file on GET request using Vercel",
-  "main": "api/items.js",
+  "main": "api/simpsons.js",
   "scripts": {
     "dev": "vercel dev"
   },
