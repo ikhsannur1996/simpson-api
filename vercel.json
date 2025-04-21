@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "api/items.js": {
+      "includeFiles": "data/simpsons.json"
+    }
+  },
+  "buildCommand": "",
+  "outputDirectory": ""
+}
