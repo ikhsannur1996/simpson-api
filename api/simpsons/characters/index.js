@@ -8,8 +8,8 @@ export default function handler(req, res) {
       const fileContents = fs.readFileSync(filePath, 'utf8');
       const items = JSON.parse(fileContents);
 
-      if (items.simpsons && items.simpsons.characters) {
-        res.status(200).json(items.simpsons.characters);
+      if (items && items.characters) {
+        res.status(200).json(items.characters);
       } else {
         res.status(404).json({ error: 'Simpsons characters not found' });
       }
